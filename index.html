@@ -1,0 +1,261 @@
+<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href= "css/main.css">
+<title>Lab car</title>
+</head>
+<body>
+<div class="container-fluid">
+<!-- first row (nav)-->
+<div class= "row">
+<div class= "col-md-12" >
+<nav class="navbar navbar-default" role="navigation">
+<!-- nav toggle -->
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand col-md-offset-6" href="#">
+    <img src="assets/images/logoForma.png" alt="logo">
+  </a>
+</div>
+<!-- grup links of nav -->
+<div class="collapse navbar-collapse navbar-ex1-collapse col-md-offset-8">
+  <ul class="nav navbar-nav">
+    <li><a href="#">Viaja</a></li>
+      <li><a href="#">Conduce</a></li>
+        <li><a href="#window1" data-toggle="modal">Inicia Sesión</a></li>
+<!-- modal (inicia sesión button) -->
+         <div class="modal face" id="window1">
+          <div class="modal-dialog">
+           <div class="modal-content">
+<!-- header content -->
+            <div class="modal-header">
+              <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+             <div class="container">
+<!-- image profile -->
+	           <div class="row">
+               <div class="col-md-4 col-md-offset-1">
+               <div class="profile-header-container">
+    	           <div class="profile-header-img">
+                   <img class="img-circle" src="assets/images/default-avatar"/>
+                 </div>
+               </div>
+	            </div>
+           </div>
+          </div>
+<!-- content window -->
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <div class="modal-body">
+               <div class="card text-center" style="width: 200px;">
+                <div class="card-body">
+                 <div class="input-grup">
+                  <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                 <div class="form-grup">
+                  <span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                 </div>
+                <div>
+                 <a href="#" class="btn btn-primary">LOGING</a>
+                </div>
+                <div>
+                 <p class="card-text">Forgot password?<a href="#">Click here</a></p>
+                </div>
+                 </div>
+                </div>
+               </div>
+             </div>
+            </div>
+            </div>
+           </div>
+          </div>
+         </div>
+    <li class="dropdown">
+      <ul class="dropdown-menu">
+        <li><a href="#">Viaja</a></li>
+        <li><a href="#">Conduce</a></li>
+        <li><a href="#">Inicia Sesion</a></li>
+      </ul>
+    </li>
+    </ul>
+   </div>
+  </nav>
+ </div>
+</div>
+<!-- second row (image taxi and card)  -->
+<div class= "row">
+ <div class= "col-md-12 taxi">
+<!-- card yellow -->
+   <div class= "col-md-offset-8 col-md-4 col-xs-offset-2 col-xs-10">
+    <div class="card0">
+     <div class="card-body0">
+      <h3 class="card-title">Disfruta del viaje</h3>
+      <h3 class="card-title">Eres dueño de tu tiempo</h3>
+      <p class="card-text"></p> Viaja con <img src= "assets/images/logoBlanco.png" alt="" width= "15%">
+      <p><a href="#" class="btn btn-default">REGÍSTRATE</a></p>
+      <div class= "row">
+       <div class= "col-md-3">
+        <hr></hr>
+       </div>
+       <div class= "col-md-3">
+        <p>o bien</p>
+       </div>
+       <div class= "col-md-3">
+        <hr ></hr>
+       </div>
+    </div>
+      <p><a href="#" class="btn btn-default">Conviertete en un conductor</a></p>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- third row (cellphone image) -->
+<div class= "row cell">
+ <div class= "col-md-6">
+  <div id="carbonads">
+   <img src="assets/images/iPhone6Plus.png" style="width:50%" >
+  </div>
+</div>
+ <div class= "col-md-4">
+  <div id="carbonad0">
+   <h3 class="card-title"> Descarga la nueva app</h3>
+   <p class="card-text"> Laversión actualizada de LabCarestá llena de nuevas funciones para llegar adonde quieras aún más fácil y rápido. Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe excatamente a dónde ir.</p>
+ </div>
+</div>
+</div>
+<!-- fourth row (driver image) -->
+<div class= "row">
+ <div class= "col-md-12 closeup">
+  <div class= "col-md-offset-8 col-md-4 col-xs-offset-2 col-xs-10">
+   <div class="card1">
+    <div class="card-body1">
+    <h3 class="card-title">Conduce cuando quieras</h3>
+    <p class="card-text">LabCar es una poción flexible para alcanzar tus metas financieras</p>
+    <p><a href="#" class="btn btn-warning">Conviertete en un conductor</a></p>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- fifth row (text and map) -->
+<div class= "row cell">
+ <div class= "col-md-6">
+  <div id="carbonad0">
+   <h3 class="card-title">Tarifas</h3>
+   <p class="card-text"> Consulta las tarifas LabCar aquí</p>
+   <form class="form-inline">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Ingrese su punto de partida" aria-label="Username" aria-describedby="basic-addon1">
+      <input type="text" class="form-control" placeholder="Ingrese su destino" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+  </form>
+   <p><a href="#" class="btn btn-default">¡TRAZAR RUTA!</a></p>
+ </div>
+</div>
+<!-- map -->
+<div class= "col-md-6">
+ <div id="map">
+  <img id="map-canvas"src="assets/images/map.png">
+ </div>
+</div>
+</div>
+<!-- sixth row (footer) -->
+<div class= "row">
+ <div class= "col-md-12 footer">
+   <div row>
+    <div class="col-md-offset-1">
+      <div>
+       <img id="lfooter"src="assets/images/logoblanco.png">
+      </div>
+      <div class="row">
+        <div class="col-md-11">
+        <hr></hr>
+        <div class="col-md-3">
+        </div>
+<!-- col 2 -->
+        <div class="col-md-3">
+         <dl class="list">
+          <dd>Viaja</dd>
+          <dd>Donduce</dd>
+          <dd>Ciudades</dd>
+          <dd>Ciudades</dd>
+          <dd>Entregas</dd>
+          <dd>Cómo funciona?</dd>
+          <dd>Seguridad</dd>
+         </dl>
+        </div>
+<!-- col 3 -->
+      <div class="col-md-3">
+       <dl class="list">
+        <dd>Oportunidades</dd>
+        <dd>Nuestra historia</dd>
+        <dd>Eventos</dd>
+        <dd>Desarrolladores</dd>
+        <dd>Servicios</dd>
+        <dd>Laboratoria</dd>
+        <dd>Coders</dd>
+      </dl>
+    </div>
+<!-- col 3 -->
+    <div class="col-md-3">
+     <dl class="list">
+      <img class="stor1" src="assets/images/appstore.png">
+      <img class="stor2" src="assets/images/enBadgeWebGeneric.png">
+    </dl>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <hr></hr>
+    </div>
+    </div>
+
+    <div class="row credits">
+     <div class="col-md-12">
+      <p>© 2018 LabCar technologies Inc.</p>
+     </div>
+     </div>
+
+   </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<!--<scripts rc="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKYUJWLUcKpLOLiIUUKuVpY6yDvHTVynk&callback=initMap"> -->
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* Los estilos de tu proyecto */
+/* modal (inicia sesión) */
+html,
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#window1{
+  background: gray;
+
+}
+
+.modal-content{
+  background: #08AC9D;
+}
+
+.profile-header-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #51D2B7;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* taxi image */
+.taxi {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height:100vh;
+  width: :100%;
+}
+
+/* yellow card */
+
+.card0 {
+  width: 108%;
+  height:
+  padding:
+}
+
+.card-body0{
+  display: block;
+  background-color:#F7B617;
+  color: white;
+  height: 16em;
+  margin-top: 120px;
+}
+
+h3{
+  padding-bottom: auto;
+}
+
+/* cellphone image */
+.cell{
+ background-color:#F7B617;
+}
+
+#carbonads {
+  display: block;
+  border: 3px solid white;
+}
+
+#carbonad0 {
+  display: inline-block;
+  height: 400px;
+}
+
+/* closeup image */
+.closeup {
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height:100vh;
+  width: :100%;
+}
+
+.card1{
+  width: 108%;
+  padding:
+  display: block;
+  background-color:black ;
+  opacity: 0.7;
+  height: 200px;
+  margin-top: -20px;
+}
+
+.card-body1{
+  color: white;
+}
+
+/* map */
+#map-canvas {
+  width: 50%;
+  height: 280px;
+	margin: 0;
+	padding: 5px;
+  border: 1px solid white;
+  margin-top: 25px;
+}
+
+/* footer */
+
+.footer {
+  background-color:#2B2B2B
+
+}
+
+#lfooter{
+ margin-top: 50px;
+ width: 10%;
+
+}
+
+.list{
+  color: white;
+  text-decoration: none;
+}
+
+.stor1 {
+  width: 50%;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.stor2 {
+  width: 50%;
+  padding: 5px;
+}
+
+.credits{
+  color: white;
+}
